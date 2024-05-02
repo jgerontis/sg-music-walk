@@ -3,18 +3,22 @@ import { RouteRecordRaw } from 'vue-router';
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '',
-    redirect: '/folder/Inbox'
+    path: '/credits',
+    component: () => import('../views/CreditsPage.vue'),
   },
   {
-    path: '/folder/:id',
-    component: () => import ('../views/FolderPage.vue')
-  }
-]
+    path: '/home',
+    component: () => import('../views/HomePage.vue'),
+  },
+  {
+    path: '/map',
+    component: () => import('../views/MapPage.vue'),
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
