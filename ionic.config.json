@@ -1,0 +1,7 @@
+{
+  "name": "Webb Music Walk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
