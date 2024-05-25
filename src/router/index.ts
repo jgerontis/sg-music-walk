@@ -7,12 +7,20 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/CreditsPage.vue'),
   },
   {
+    path: '/',
+    component: () => import('../views/HomePage.vue'),
+  },
+  {
     path: '/home',
     component: () => import('../views/HomePage.vue'),
   },
   {
     path: '/map',
     component: () => import('../views/MapPage.vue'),
+  },
+  {
+    path: '/player',
+    component: () => import('../views/PlayerPage.vue'),
   },
 ];
 

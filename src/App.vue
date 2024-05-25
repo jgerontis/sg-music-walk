@@ -19,6 +19,8 @@ import {
   homeSharp,
   mapOutline,
   mapSharp,
+  // musicalNotes,
+  // musicalNotesOutline,
   peopleCircleOutline,
   peopleCircleSharp,
 } from 'ionicons/icons';
@@ -37,6 +39,12 @@ const appPages = [
     iosIcon: mapOutline,
     mdIcon: mapSharp,
   },
+  // {
+  //   title: 'Music Player',
+  //   url: '/player',
+  //   iosIcon: musicalNotesOutline,
+  //   mdIcon: musicalNotes,
+  // },
   {
     title: 'Credits',
     url: '/credits',
@@ -57,11 +65,10 @@ if (path !== undefined) {
   <ion-app>
     <ion-split-pane content-id="main-content">
       <ion-menu content-id="main-content" type="overlay">
-        <ion-content>
+        <ion-content :scroll-y="false">
           <ion-list id="inbox-list">
-            <ion-list-header>Webb Music Walk</ion-list-header>
-            <ion-note>St. George, UT</ion-note>
-
+            <ion-list-header>Menu</ion-list-header>
+            <ion-note></ion-note><!-- in case you need a note later -->
             <ion-menu-toggle :auto-hide="false" v-for="(p, i) in appPages" :key="i">
               <ion-item
                 @click="selectedIndex = i"
