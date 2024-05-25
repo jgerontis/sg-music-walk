@@ -27,9 +27,7 @@ npm-debug.log*
 !/.vscode/extensions.json
 /dist
 /node_modules
-/android
-/android/*
-/ios
-/ios/*
-/dist
-/dist/*
+
+android/
+ios/
+dist/

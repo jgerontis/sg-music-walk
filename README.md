@@ -1,39 +1,23 @@
-# Webb Music Walk
+# SG Music Walk
+A capacitor app that plays music depending on where you are.
 
-This template should help get you started developing with Vue 3 in Vite.
+DONE:
+- app builds for web, iOS, and android
+- able to get user location
+- centralized map of st george using leaflet and openstreetmap
+- make an interface for geoJSON to make custom zones
+- basic able to detect if a location is inside of a geoJSON zone
+- working audio player that is able to play audio
+- draw a circle where the user is
+- able to tell if given location is inside any zone and if so which one(s)
+- event loop and checking location
+- audio player plays correct music based on the zone
+	- audio player knows how to crossfade (hopefully)
+	- when not in a zone, play transition music on loop/random
+	- when leaving a zone, quiet down current tracks, immediately play transition, loop transition until in new zone, when transistion done, play new zone
+	- audio player picks random tracks from the folder
+- constantly check if in any zone
+- credits
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+TODO:
+- manual music player
