@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-        <string>WebbMusicWalk</string>
+        <string>SG Music Walk</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -45,7 +45,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+<<<<<<< HEAD
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We use your location to calculate which song should play based on where you are. Your location data is solely used for this purpose and is not shared with any third parties or associated with you in any way.</string>
+=======
+>>>>>>> develop
 </dict>
 </plist>
