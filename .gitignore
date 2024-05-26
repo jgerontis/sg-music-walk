@@ -31,3 +31,6 @@ npm-debug.log*
 android/
 ios/
 dist/
+
+resources/ios/**/*
+resources/android/**/*
