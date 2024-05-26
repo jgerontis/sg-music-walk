@@ -66,7 +66,7 @@ if (path !== undefined) {
     <ion-split-pane content-id="main-content">
       <ion-menu content-id="main-content" type="overlay">
         <ion-content :scroll-y="false">
-          <ion-list id="inbox-list">
+          <ion-list color="secondary" id="inbox-list">
             <ion-list-header>Menu</ion-list-header>
             <ion-note></ion-note><!-- in case you need a note later -->
             <ion-menu-toggle :auto-hide="false" v-for="(p, i) in appPages" :key="i">

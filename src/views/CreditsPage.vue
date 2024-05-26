@@ -7,25 +7,25 @@ import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, Io
     <ion-header :translucent="true">
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-menu-button color="primary"></ion-menu-button>
+          <ion-menu-button color="tertiary"></ion-menu-button>
         </ion-buttons>
         <ion-title>Credits</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content :scroll-y="false">
+    <ion-content :scroll-y="true">
       <div>
         <ion-list :inset="true">
           <ion-item>
             All music by Glenn Webb ©2023, recorded at Utah Tech University Studios, Utah Tech University, St George, Utah May-June 2023.
           </ion-item>
           <ion-item>
-            Glenn Webb: vibraphone, marimba, xylophone, timpani, drums, chimes, log drums, shakers, keyboards, percussion, Producer
+            Glenn Webb: vibraphone, marimba, xylophone, timpani, drums, chimes, log drums, shakers, keyboards, percussion, producer
           </ion-item>
           <ion-item>
             Chad Roundy: acoustic guitar, electric guitar, engineer, mastering
           </ion-item>
           <ion-item>
-            Robert Matheson: double bass, engineer, mastering
+            Robert Matheson: double bass, electric bass, engineer, mastering
           </ion-item>
           <ion-item>
             Chris Flinders: tenor sax, alto sax, bass clarinet
@@ -43,11 +43,11 @@ import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, Io
             Kylie Hunter: violin
           </ion-item>
           <ion-item>
-            Josh Gerontis: Developer
+            Josh Gerontis: developer
           </ion-item>
           <ion-item>
-            The creation of SG Music Walk walk is supported by
-            the St. George Arts Commision Grant.
+            The creation of SG Music Walk is supported by
+            a grant from the St. George Arts Commision.
           </ion-item>
           <ion-item>
             Image credited to MojaveNC, CC BY 2.5 via Wikimedia Commons
@@ -59,5 +59,7 @@ import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, Io
 </template>
 
 <style scoped>
-
+ion-item {
+  margin: 20px 0;
+}
 </style>

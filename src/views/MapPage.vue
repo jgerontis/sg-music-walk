@@ -25,25 +25,25 @@ function getZone(point: L.LatLng) {
           break;
         }
     }
-    console.log("current zone: ", currentZone)
+    // console.log("current zone: ", currentZone)
     if (currentZone == null) {
-        console.log("outside zone")
+        // console.log("outside zone")
         activeZone.value = "";
         crossfade(Transitions)
         return
     }
     if (currentZone.folderName != activeZone.value) {
-        console.log("inside zone: ", currentZone.folderName)
+        // console.log("inside zone: ", currentZone.folderName)
         activeZone.value = currentZone.folderName;
         crossfade(currentZone.tracks)
         return
     }
-    console.log("same zone")
+    // console.log("same zone")
 }
 
 function click(e: LeafletMouseEvent) {
     const point = e.latlng;
-    console.log(point)
+    // console.log(point)
     getZone(point)
 }
 
@@ -82,7 +82,7 @@ onMounted(async () => {
     // eslint-disable-next-line no-constant-condition
     while (true) {
         // get the location
-        console.log("getting position")
+        // console.log("getting position")
         try {
             position = await Geolocation.getCurrentPosition({
                 enableHighAccuracy: true,
@@ -93,7 +93,7 @@ onMounted(async () => {
             console.log("error getting position: ", e)
             continue
         }
-        console.log("position: ", position)
+        // console.log("position: ", position)
 
         // remove the old user
         if (circle) {
@@ -112,12 +112,12 @@ onMounted(async () => {
         })
         circle.addTo(map);
         const latlng = L.latLng(user_latt, user_long)
-        // map.flyTo(latlng, 17)
-        console.log("getting zone")
+        map.flyTo(latlng, 17)
+        // console.log("getting zone")
         getZone(latlng)
-        console.log("sleeping")
+        // console.log("sleeping")
         await sleep(17000)
-        console.log("done sleeping")
+        // console.log("done sleeping")
     }
 });
 
@@ -129,9 +129,9 @@ const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
     <ion-header :translucent="true">
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-menu-button color="primary"></ion-menu-button>
+          <ion-menu-button color="tertiary"></ion-menu-button>
         </ion-buttons>
-        <ion-title color="light">Playing: <strong>{{ activeZone != "" ? activeZone : "Transitions" }}</strong></ion-title>
+        <ion-title color="light">Playing: <strong>{{ activeZone != "" ? activeZone : "Between Zones" }}</strong></ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :scroll-y="false">

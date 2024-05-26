@@ -1,12 +1,12 @@
 # Support Information
 
-## Welcome to Webb Music Walk
+## Welcome to SG Music Walk
 
-Thank you for using Webb Music Walk! If you have any questions, encounter issues, or need assistance, we're here to help. Please look below for the support information:
+Thank you for using SG Music Walk! If you have any questions, encounter issues, or need assistance, we're here to help. Please look below for the support information:
 
 ## Contact Us
 
-- **Email:** webbmusicwalk@gmail.com
+- **Email:** gerontisj@yahoo.com
 
 
 ## Frequently Asked Questions (FAQs)

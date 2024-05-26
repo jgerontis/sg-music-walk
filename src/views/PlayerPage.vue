@@ -81,7 +81,7 @@ onMounted(() => {
     </ion-header>
     <ion-content>
         <div class="music-player">
-        <img :src="currentTrack.cover" alt="Album cover" class="album-cover" />
+        <img src="../assets/photos/logo.png" alt="Album cover" class="album-cover" />
         <h2>{{ currentTrack.title }}</h2>
         <h3>{{ currentTrack.artist }}</h3>
 
