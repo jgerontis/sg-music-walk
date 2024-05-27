@@ -46,6 +46,9 @@ import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, Io
             Josh Gerontis: developer
           </ion-item>
           <ion-item>
+            Sadie Stone: graphics
+          </ion-item>
+          <ion-item>
             The creation of SG Music Walk is supported by
             a grant from the St. George Arts Commision.
           </ion-item>
