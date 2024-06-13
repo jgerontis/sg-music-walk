@@ -2,7 +2,7 @@
 
 **Effective Date:** 01/09/2024
 
-Thank you for using SG Music Walk Walk (SG Music Walk)! This Privacy Policy is intended to inform you about the types of information we do not collect when you use our app.
+Thank you for using SG Music Walk! This Privacy Policy is intended to inform you about the types of information we do not collect when you use our app.
 
 ## 1. No Collection of Personal Information
 
@@ -26,10 +26,10 @@ SG Music Walk does not display third-party advertisements, and therefore, we do 
 
 ## 6. Changes to Privacy Policy
 
-We reserve the right to update or modify this Privacy Policy at any time. Any changes will be effective immediately upon posting the updated policy within the app.
+We reserve the right to update or modify this Privacy Policy at any time. Any changes will be effective immediately upon posting the updated policy.
 
 ## 7. Contact Us
 
-If you have any questions or concerns about this Privacy Policy, please contact us by emailing SGmusicwalk@gmail.com.
+If you have any questions or concerns about this Privacy Policy, please raise an issue here on github.
 
 By using SG Music Walk, you agree to the terms outlined in this Privacy Policy.
