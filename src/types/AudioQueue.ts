@@ -1,12 +1,18 @@
-export class AudioQueue {
+export class AudioQueue extends EventTarget {
   private audio: HTMLAudioElement;
   private crossfadeDuration: number; // Crossfade duration in milliseconds
   private currentVolume: number = 1; // Default volume
 
   constructor(crossfadeDuration: number = 4000) {
+    super();
     this.audio = new Audio();
     this.crossfadeDuration = crossfadeDuration;
     this.audio.loop = false; // Disable automatic looping
+
+    // Listen for the 'ended' event and emit a custom event
+    this.audio.addEventListener('ended', () => {
+      this.dispatchEvent(new CustomEvent('songEnded', { detail: { message: 'Song has finished playing.' } }));
+    });
   }
 
   set volume(value: number) {
@@ -26,7 +32,14 @@ export class AudioQueue {
     this.audio.play();
   }
 
+  stop() {
+    this.audio.pause();
+    this.audio.currentTime = 0;
+    this.audio.src = '';
+  }
+
   crossfadeTo(newSongUrl: string) {
+    console.log('Crossfading to new song: ', newSongUrl);
     const fadeOutDuration = this.crossfadeDuration / 2;
 
     const fadeOutPromise = new Promise((resolve) => {

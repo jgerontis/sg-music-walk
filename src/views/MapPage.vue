@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent } from '@ionic/vue';
 import { Geolocation } from "@capacitor/geolocation";
 import L, { LeafletMouseEvent } from "leaflet";
@@ -22,8 +22,19 @@ import "leaflet/dist/leaflet.css";
  * ================================================================================
  */
 
+// create an audio queue
 const audioQueue = new AudioQueue();
+// add the event listener for when the song ends
+audioQueue.addEventListener("songEnded", () => {
+    console.log("song ended")
+    if (previousZone.value == null) {
+        previousZone.value = TransitionZone;
+    }
+    crossfade(previousZone.value.tracks)
+})
+
 const previousZone = ref<Zone|null>(null);
+
 
 function crossfade(tracks: string[]) {
     console.log("crossfading to: ", tracks)
@@ -139,6 +150,10 @@ onMounted(async () => {
         console.log("done sleeping")
     }
 });
+
+onUnmounted(async () => {
+    audioQueue.stop()
+})
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 </script>
