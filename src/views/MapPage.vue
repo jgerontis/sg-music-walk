@@ -3,48 +3,67 @@ import { onMounted, ref } from 'vue';
 import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent } from '@ionic/vue';
 import { Geolocation } from "@capacitor/geolocation";
 import L, { LeafletMouseEvent } from "leaflet";
-import { pointInsideZone, Transitions, Zones }  from "@/types/zones"
+import { pointInsideZone, TransitionZone, Zones }  from "@/types/zones"
+import type { Zone } from "@/types/zones";
 import { songs } from "@/types/songs";
 import { AudioQueue } from "@/types/AudioQueue";
+
 import "leaflet/dist/leaflet.css";
 
+/**
+ * ================================================================================
+ * This is the main file for the map page. It is responsible for the following:
+ * 1. Generating the map
+ * 2. Getting the user's location
+ * 3. Adding the user to the map
+ * 4. Getting the zone the user is in
+ * 5. Keeping track of what zone the user is in
+ * 6. Telling the audio queue what folder to play
+ * ================================================================================
+ */
+
 const audioQueue = new AudioQueue();
-const activeZone = ref("");
+const previousZone = ref<Zone|null>(null);
 
 function crossfade(tracks: string[]) {
+    console.log("crossfading to: ", tracks)
     const index = Math.floor(Math.random() * tracks.length);
     const track = tracks[index];
     audioQueue.crossfadeTo(songs[track])
 }
 
-function getZone(point: L.LatLng) {
-    let currentZone = null;
+function findZone(point: L.LatLng) {
+    console.log("previous zone: ", previousZone.value)
+    console.log("finding current zone...")
+    let newZone = TransitionZone;
     for (const zone of Zones) {
         if (pointInsideZone(point.lat, point.lng, zone)) {
-          currentZone = zone;
+          newZone = zone;
           break;
         }
     }
-    // console.log("current zone: ", currentZone)
-    if (currentZone == null) {
-        // console.log("outside zone")
-        activeZone.value = "";
-        crossfade(Transitions)
+    console.log("new zone: ", newZone)
+
+    // first time
+    if (previousZone.value == null) {
+        console.log("first time, zone is: ", newZone)
+        previousZone.value = newZone;
+        crossfade(newZone.tracks)
         return
     }
-    if (currentZone.folderName != activeZone.value) {
-        // console.log("inside zone: ", currentZone.folderName)
-        activeZone.value = currentZone.folderName;
-        crossfade(currentZone.tracks)
-        return
+
+    // only need to change tracks when zone changes
+    if (newZone.folderName != previousZone.value.folderName) {
+        console.log("new zone: ", newZone.folderName)
+        previousZone.value = newZone;
+        crossfade(newZone.tracks)
     }
-    // console.log("same zone")
 }
 
 function click(e: LeafletMouseEvent) {
     const point = e.latlng;
-    // console.log(point)
-    getZone(point)
+    console.log(point)
+    findZone(point)
 }
 
 
@@ -82,7 +101,7 @@ onMounted(async () => {
     // eslint-disable-next-line no-constant-condition
     while (true) {
         // get the location
-        // console.log("getting position")
+        console.log("getting position")
         try {
             position = await Geolocation.getCurrentPosition({
                 enableHighAccuracy: true,
@@ -93,7 +112,7 @@ onMounted(async () => {
             console.log("error getting position: ", e)
             continue
         }
-        // console.log("position: ", position)
+        console.log("position: ", position)
 
         // remove the old user
         if (circle) {
@@ -111,13 +130,13 @@ onMounted(async () => {
             radius: (user_radius / 2)
         })
         circle.addTo(map);
-        const latlng = L.latLng(user_latt, user_long)
-        map.flyTo(latlng, 17)
-        // console.log("getting zone")
-        getZone(latlng)
-        // console.log("sleeping")
+        // const latlng = L.latLng(user_latt, user_long)
+        // map.flyTo(latlng, 17)
+        console.log("getting zone")
+        // findZone(latlng)
+        console.log("sleeping")
         await sleep(17000)
-        // console.log("done sleeping")
+        console.log("done sleeping")
     }
 });
 
@@ -131,7 +150,7 @@ const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
         <ion-buttons slot="start">
           <ion-menu-button color="tertiary"></ion-menu-button>
         </ion-buttons>
-        <ion-title color="light">Playing: <strong>{{ activeZone != "" ? activeZone : "Between Zones" }}</strong></ion-title>
+        <ion-title color="light">Playing: <strong>{{ previousZone?.folderName != "" ? previousZone?.folderName : "Between Zones" }}</strong></ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :scroll-y="false">

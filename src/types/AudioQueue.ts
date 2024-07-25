@@ -6,7 +6,7 @@ export class AudioQueue {
   constructor(crossfadeDuration: number = 4000) {
     this.audio = new Audio();
     this.crossfadeDuration = crossfadeDuration;
-    this.audio.loop = true; // Enable looping
+    this.audio.loop = false; // Disable automatic looping
   }
 
   set volume(value: number) {

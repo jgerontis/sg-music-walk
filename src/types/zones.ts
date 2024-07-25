@@ -56,6 +56,19 @@ export const Transitions: string[] = [
     "Shell_Wind_Chimes",
 ]
 
+export const TransitionZone: Zone = {
+    type: "Feature",
+    properties: {
+        "name": "Transition Zone",
+    },
+    geometry: {
+        "type": "Polygon",
+        "coordinates": []
+    },
+    folderName: "Between Zones",
+    tracks: Transitions,
+}
+
 export const Zones: Zone[] = [
     {
         type: "Feature",
@@ -76,7 +89,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "Crystal_Memories_2020",
+        folderName: "Crystal Memories 2020",
         tracks: ["Crystal_Memories_2020"],
     },
     {
@@ -98,7 +111,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "Mural_Alley",
+        folderName: "Mural Alley",
         tracks: [
             "Mural_Alley_Flute_Guitar_Glass",
             "Mural_Alley_Flute_Guitar_Shells",
@@ -135,7 +148,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "Ninety_Five_West",
+        folderName: "Ninety Five West",
         tracks: [
             "Ninety_Five_West"
         ],
@@ -159,7 +172,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "Zone_3",
+        folderName: "Zone 3",
         tracks: [
             "Zone_3_Guitar_Antarctic_Sun_Carbon_Particles",
             "Zone_3_Guitar_Antarctic_Sun",
@@ -193,7 +206,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "South_Temple",
+        folderName: "South Temple",
         tracks: [
             "South_Temple_1_Vibe_and_Marimba",
             "South_Temple_2_Vibe_and_Guitar",
@@ -221,7 +234,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "Fire_Clay",
+        folderName: "Fire Clay",
         tracks: [
             "Fire_Clay_Guitar_Solo_No_Wah",
             "Fire_Clay_Guitar_Solo",
@@ -250,7 +263,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "Marimba_Free_Improvisation",
+        folderName: "Marimba Free Improvisation",
         tracks: [
             "Marimba_Free_Improvisation_1",
             "Marimba_Free_Improvisation_2",
@@ -341,7 +354,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "Land_Of_Endurance",
+        folderName: "Land Of Endurance",
         tracks: [
             "Land_of_Endurance_Almost_LoFi",
             "Land_of_Endurance_Big_Broom_Stick_50_Ways",
@@ -374,7 +387,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.2,
         },
-        folderName: "Ninety_Nine_Drones",
+        folderName: "Ninety Nine Drones",
         tracks: [
             "Ninety_Nine_Drones",
         ],
@@ -398,7 +411,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.6,
         },
-        folderName: "Slow_Zone",
+        folderName: "Slow Zone",
         tracks: [
             "Slow_Zone",
         ],
@@ -462,7 +475,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.4,
         },
-        folderName: "Sabor_to_Iceberg",
+        folderName: "Sabor to Iceberg",
         tracks: [
             "Sabor_to_Iceberg_Bass_Conga",
             "Sabor_to_Iceberg_Bass_Guitar_4_Conga",
@@ -495,7 +508,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.4,
         },
-        folderName: "Warner_Valley",
+        folderName: "Warner Valley",
         tracks: [
             "Warner_Valley_Guitar_Marimba",
             "Warner_Valley_Guitar_Melody_Vibe_Fills",
@@ -527,7 +540,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.4,
         },
-        folderName: "Restless_Morning",
+        folderName: "Restless Morning",
         tracks: [
             "Restless_Morning_Everything",
             "Restless_Morning_Marimba",
@@ -557,7 +570,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.4,
         },
-        folderName: "Bass_Eventually",
+        folderName: "Bass Eventually",
         tracks: [
             "Bass_Eventually_1_Everything",
             "Bass_Eventually_2_No_Cello",
@@ -583,7 +596,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.4,
         },
-        folderName: "Bass_Eventually",
+        folderName: "Bass Eventually",
         tracks: [
             "Bass_Eventually_1_Everything",
             "Bass_Eventually_2_No_Cello",
@@ -609,7 +622,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.8,
         },
-        folderName: "We_Will_Be_Glad_1",
+        folderName: "We Will Be Glad 1",
         tracks: [
             "We_Will_Be_Glad_1_Alto_Flute",
             "We_Will_Be_Glad_1_Bass_Clarinet",
@@ -639,7 +652,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.8,
         },
-        folderName: "We_Will_Be_Glad_2",
+        folderName: "We Will Be Glad 2",
         tracks: [
             "We_Will_Be_Glad_2_Alto_Flute",
             "We_Will_Be_Glad_2_Bass_Clarinet_Alto_Flute",
@@ -669,7 +682,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.8,
         },
-        folderName: "Not_Whole_Tone",
+        folderName: "Not Whole Tone",
         tracks: [
             "Not_Whole_Tone_Eeverything",
             "Not_Whole_Tone_Flute_Camel",
@@ -700,7 +713,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.8,
         },
-        folderName: "Out_In_the_Wild",
+        folderName: "Out In the Wild",
         tracks: [
             "Out_In_the_Wild",
         ],
@@ -724,7 +737,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.8,
         },
-        folderName: "Bike_Lane",
+        folderName: "Bike Lane",
         tracks: [
             "Bike_Lane_Everything",
             "Bike_Lane_Guitar_and_Marimba_1_and_Organ",
@@ -756,7 +769,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.8,
         },
-        folderName: "Trumpet_Timp",
+        folderName: "Trumpet Timp",
         tracks: [
             "Trumpet_and_Timp_Bottom_Octave_Trumpet",
             "Trumpet_and_Timp_Everything",
@@ -783,7 +796,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0.8,
         },
-        folderName: "Spider_Heaven",
+        folderName: "Spider Heaven",
         tracks: [
             "Spider_Heaven_Lego_1_Metal_2",
             "Spider_Heaven_Lego_1_Plastic_2",
@@ -815,7 +828,7 @@ export const Zones: Zone[] = [
             weight: 0,
             opacity: 0,
         },
-        folderName: "Copper_Glow",
+        folderName: "Copper Glow",
         tracks: [
             "Copper_Glow",
         ],
