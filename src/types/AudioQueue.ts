@@ -39,7 +39,7 @@ export class AudioQueue extends EventTarget {
   }
 
   crossfadeTo(newSongUrl: string) {
-    console.log('Crossfading to new song: ', newSongUrl);
+    console.log('finishing old song...');
     const fadeOutDuration = this.crossfadeDuration / 2;
 
     const fadeOutPromise = new Promise((resolve) => {
@@ -51,9 +51,10 @@ export class AudioQueue extends EventTarget {
           resolve('Fade out complete');
         }
       }, fadeOutDuration / 10);
+      console.log("finished old song");
     });
-
     // Wait for the fade out to complete before starting the fade in
+    console.log('starting new song:', newSongUrl);
     fadeOutPromise.then(() => {
       this.playSong(newSongUrl);
       const fadeInInterval = setInterval(() => {
@@ -63,6 +64,7 @@ export class AudioQueue extends EventTarget {
           clearInterval(fadeInInterval);
         }
       }, fadeOutDuration / 10);
+      console.log('new song is playing');
     });
   }
 }
