@@ -560,8 +560,8 @@ export const Zones: Zone[] = [
             "type": "Polygon",
             "coordinates": [[
                 [-113.58330, 37.11499], // top left
-                [-113.57907, 37.11499], // top right
-                [-113.57907, 37.11255], // bottom right
+                [-113.57773, 37.11499], // top right
+                [-113.57773, 37.11255], // bottom right
                 [-113.58330, 37.11255], // bottom left
                 ]]
         },
@@ -586,8 +586,8 @@ export const Zones: Zone[] = [
             "type": "Polygon",
             "coordinates": [[
                 [-113.58122, 37.11255], // top left
-                [-113.57914, 37.11255], // top right
-                [-113.57914, 37.10991], // bottom right
+                [-113.57773, 37.11255], // top right
+                [-113.57773, 37.10991], // bottom right
                 [-113.58122, 37.10991], // bottom left
                 ]]
         },
