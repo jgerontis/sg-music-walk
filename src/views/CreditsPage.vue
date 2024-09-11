@@ -43,6 +43,9 @@ import { IonPage, IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, Io
             Kylie Hunter: violin
           </ion-item>
           <ion-item>
+            Tanner Deal: trombone
+          </ion-item>
+          <ion-item>
             Josh Gerontis: developer
           </ion-item>
           <ion-item>
