@@ -28,8 +28,6 @@ npm-debug.log*
 /dist
 /node_modules
 
-android/
-ios/
 dist/
 
 resources/ios/**/*

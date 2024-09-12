@@ -1,0 +1,227 @@
+## Capacitor Plugins
+
+- 🟩 [@capacitor/app@6.0.0](https://github.com/ionic-team/capacitor-plugins.git) - (Latest 6.0.1)
+- 🟩 [@capacitor/geolocation@6.0.0](https://github.com/ionic-team/capacitor-plugins.git) - (Latest 6.0.1)
+- 🟩 [@capacitor/haptics@6.0.0](https://github.com/ionic-team/capacitor-plugins.git) - (Latest 6.0.1)
+## Cordova Plugins
+
+## Dependencies
+
+- 🟩 [@capacitor/android@6.0.0](https://github.com/ionic-team/capacitor.git) - (Latest 6.1.2)
+- 🟩 [@capacitor/cli@6.0.0](https://github.com/ionic-team/capacitor.git) - (Latest 6.1.2)
+- 🟩 [@capacitor/core@6.0.0](https://github.com/ionic-team/capacitor.git) - (Latest 6.1.2)
+- 🟩 [@capacitor/ios@6.0.0](https://github.com/ionic-team/capacitor.git) - (Latest 6.1.2)
+- 🟩 [@ionic/vue@8.1.0](https://github.com/ionic-team/ionic-framework.git) - (Latest 8.2.7)
+- 🟩 [@ionic/vue-router@8.1.0](https://github.com/ionic-team/ionic-framework.git) - (Latest 8.2.7)
+- 🟩 [@types/howler@2.2.11](https://github.com/DefinitelyTyped/DefinitelyTyped.git)
+- 🟩 [@types/leaflet@1.9.12](https://github.com/DefinitelyTyped/DefinitelyTyped.git)
+- 🟩 [@vitejs/plugin-legacy@5.3.2](https://github.com/vitejs/vite.git) - (Latest 5.4.2)
+- 🟧 [@vitejs/plugin-vue@4.6.2](https://github.com/vitejs/vite-plugin-vue.git) - (Latest 5.1.2) - Is behind 1 major version.
+- 🟧 [@vue/eslint-config-typescript@12.0.0](https://github.com/vuejs/eslint-config-typescript.git) - (Latest 13.0.0) - Is behind 1 major version.
+- 🟩 [@vue/test-utils@2.4.5](https://github.com/vuejs/test-utils.git) - (Latest 2.4.6)
+- 🟩 [cypress@13.8.1](https://github.com/cypress-io/cypress.git) - (Latest 13.14.0)
+- 🟧 [eslint@8.57.0](https://github.com/eslint/eslint.git) - (Latest 9.9.1) - Is behind 1 major version.
+- 🟩 [eslint-plugin-vue@9.25.0](https://github.com/vuejs/eslint-plugin-vue.git) - (Latest 9.27.0)
+- 🟩 [howler@2.2.4](https://github.com/goldfire/howler.js.git)
+- 🟩 [ionicons@7.4.0](https://github.com/ionic-team/ionicons.git)
+- 🟧 [jsdom@22.1.0](https://github.com/jsdom/jsdom.git) - (Latest 25.0.0) - Is behind 3 major versions.
+- 🟧 [leaflet@1.9.4](https://github.com/Leaflet/Leaflet.git) - May be unmaintained (1.3 years since last release)
+- 🟩 [prettier@3.2.5](https://github.com/prettier/prettier.git) - (Latest 3.3.3)
+- 🟩 [terser@5.31.0](https://github.com/terser/terser.git) - (Latest 5.31.6)
+- 🟩 [typescript@5.4.5](https://github.com/microsoft/TypeScript.git) - (Latest 5.5.4)
+- 🟩 [vite@5.2.11](https://github.com/vitejs/vite.git) - (Latest 5.4.2)
+- 🟧 [vitest@0.34.6](https://github.com/vitest-dev/vitest.git) - (Latest 2.0.5) - Is behind 2 major versions.
+- 🟩 [vue@3.4.26](https://github.com/vuejs/core.git) - (Latest 3.4.38)
+- 🟩 [vue-router@4.3.2](https://github.com/vuejs/router.git) - (Latest 4.4.3)
+- 🟧 [vue-tsc@1.8.27](https://github.com/vuejs/language-tools.git) - (Latest 2.0.29) - Is behind 1 major version.
+### Maintenance Score
+23 out of 30 dependencies were up to date without issues.
+
+
+
+## Nonstandard naming
+The following files and folders do not follow the standard naming convention:
+
+- /App.vue
+- /assets/.DS_Store
+- /assets/sounds/Bass_Eventually/Bass_Eventually_1_Everything.mp3
+- /assets/sounds/Bass_Eventually/Bass_Eventually_2_No_Cello.mp3
+- /assets/sounds/Bass_Eventually/Bass_Eventually_3_No_Keys.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Everything.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Guitar_Synth_1_and_Synth_2.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Guitar_and_Marimba_1.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Guitar_and_Marimba_1_and_Organ.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Guitar_and_Marimba_2.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Marimba_1_Marimba_2_and_Synth_3.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Marimba_1_Synth_3.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Marimba_2_Synth_1_and_Synth_2.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Organ_Guitar_and_Synth_5.mp3
+- /assets/sounds/Bike_Lane/Bike_Lane_Synth_4_and_Marimba_1.mp3
+- /assets/sounds/Birds/Birds_Alto_Flute.mp3
+- /assets/sounds/Birds/Birds_Alto_Flute_Bass_Clarinet.mp3
+- /assets/sounds/Birds/Birds_Alto_Flute_Marimba.mp3
+- /assets/sounds/Birds/Birds_Alto_Flute_Marimba_Bass_Clarinet.mp3
+- /assets/sounds/Birds/Birds_Alto_Flute_Marimba_Flute.mp3
+- /assets/sounds/Birds/Birds_Alto_Flute_Marimba_Violin.mp3
+- /assets/sounds/Birds/Birds_Alto_Flute_Violin.mp3
+- /assets/sounds/Birds/Birds_Bass_Clarinet_Violin.mp3
+- /assets/sounds/Birds/Birds_Bass_Clarinet_Violin_Marimba.mp3
+- /assets/sounds/Birds/Birds_Everything.mp3
+- /assets/sounds/Birds/Birds_Flute.mp3
+- /assets/sounds/Birds/Birds_Flute_Alto_Flute.mp3
+- /assets/sounds/Birds/Birds_Flute_Bass_Clarinet.mp3
+- /assets/sounds/Birds/Birds_Flute_Marimba.mp3
+- /assets/sounds/Birds/Birds_Flute_Violin.mp3
+- /assets/sounds/Birds/Birds_Marimba.mp3
+- /assets/sounds/Birds/Birds_Violin_Marimba.mp3
+- /assets/sounds/Copper_Glow/Copper_Glow.mp3
+- /assets/sounds/Crystal_Memories_2020/Crystal_Memories_2020.mp3
+- /assets/sounds/Fire_Clay/Fire_Clay_Guitar_Solo.mp3
+- /assets/sounds/Fire_Clay/Fire_Clay_Guitar_Solo_No_Wah.mp3
+- /assets/sounds/Fire_Clay/Fire_Clay_Vibe_Solo_1.mp3
+- /assets/sounds/Fire_Clay/Fire_Clay_Vibe_Solo_2.mp3
+- /assets/sounds/Fire_Clay/Fire_Clay_Vibe_Solo_3.mp3
+- /assets/sounds/Fire_Clay/Fire_Clay_Vibe_Solo_4.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Almost_LoFi.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Big_Broom_Stick_50_Ways.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Big_Broom_Stick_Mumbles.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Hot_Rod_High_Hat.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Hot_Rods.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Loose_Drums.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Lucky_Number_10.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Phil_Collins_Doesnt_Live_Here.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Snare_Drum_City.mp3
+- /assets/sounds/Land_Of_Endurance/Land_of_Endurance_Tighter_Drums.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_1.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_10.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_11.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_12.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_13.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_14.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_2.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_3.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_4.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_5.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_6.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_7.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_8.mp3
+- /assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_9.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Guitar_Glass.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Guitar_Shells.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Marimba_Glass.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Marimba_Guitar_Shell_Cymbal.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Marimba_Shells.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Glass.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_1.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_2.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_1.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_2.mp3
+- /assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Shells.mp3
+- /assets/sounds/Ninety_Five_West/Ninety_Five_West.mp3
+- /assets/sounds/Ninety_Nine_Drones/Ninety_Nine_Drones.mp3
+- /assets/sounds/Not_Whole_Tone/Not_Whole_Tone_Everything.mp3
+- /assets/sounds/Not_Whole_Tone/Not_Whole_Tone_Flute_Camel.mp3
+- /assets/sounds/Not_Whole_Tone/Not_Whole_Tone_Flute_Picc_Camel.mp3
+- /assets/sounds/Not_Whole_Tone/Not_Whole_Tone_Marimba_Camel.mp3
+- /assets/sounds/Not_Whole_Tone/Not_Whole_Tone_Marimba_Vibe_Plastic.mp3
+- /assets/sounds/Not_Whole_Tone/Not_Whole_Tone_Picc_Camel.mp3
+- /assets/sounds/Not_Whole_Tone/Not_Whole_Tone_Vibe_Key.mp3
+- /assets/sounds/Not_Whole_Tone/Not_Whole_Tone_Vibe_Marimba_Key.mp3
+- /assets/sounds/Out_In_the_Wild/Out_In_the_Wild.mp3
+- /assets/sounds/Outlaw/Outlaw_Guitar.mp3
+- /assets/sounds/Outlaw/Outlaw_Tenor.mp3
+- /assets/sounds/Outlaw/Outlaw_Trombone.mp3
+- /assets/sounds/Outlaw/Outlaw_Vibraphone.mp3
+- /assets/sounds/Restless_Morning/Restless_Morning_Everything.mp3
+- /assets/sounds/Restless_Morning/Restless_Morning_Marimba_.mp3
+- /assets/sounds/Restless_Morning/Restless_Morning_Marimba_Sleigh_Bell.mp3
+- /assets/sounds/Restless_Morning/Restless_Morning_Marimba_Wood_Block.mp3
+- /assets/sounds/Restless_Morning/Restless_Morning_Sleigh_Bells.mp3
+- /assets/sounds/Restless_Morning/Restless_Morning_Wood_Block.mp3
+- /assets/sounds/Restless_Morning/Restless_Morning_Xylo.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Bass_Conga.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Bass_Guitar_4_Conga.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Guitar_3_Bass_Conga_Drums.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Guitar_4_Conga.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Bass_Guitar_4_Conga.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_1_Bass_Conga_Drums.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_1_Drums_Bass.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_2_Bass_Conga_Drums.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_2_Drums.mp3
+- /assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_3_Bass_Conga_Drums.mp3
+- /assets/sounds/Slow_Zone/Slow_Zone.mp3
+- /assets/sounds/South_Temple/South_Temple_1_Vibe_and_Marimba.mp3
+- /assets/sounds/South_Temple/South_Temple_2_Vibe_and_Guitar.mp3
+- /assets/sounds/South_Temple/South_Temple_3_Flute_Guitar_Vibe.mp3
+- /assets/sounds/South_Temple/South_Temple_4_Alto_Flute_Guitar_Vibe.mp3
+- /assets/sounds/South_Temple/South_Temple_5_Alto_Flute_Marimba_Vibe.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Lego_1_Metal_2.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Lego_1_Plastic_2.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Perc_1_Lego_2.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Perc_1_Metal_2.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Perc_1_Perc_2.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Perc_1_Plastic_2.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Perc_2_Lego_1.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Perc_2_Metal_1.mp3
+- /assets/sounds/Spider_Heaven/Spider_Heaven_Perc_2_Plastic_1.mp3
+- /assets/sounds/Transitions/Bamboo_Wind_Chimes.mp3
+- /assets/sounds/Transitions/Bells.mp3
+- /assets/sounds/Transitions/Big_Bottle_Cap_Rattle.mp3
+- /assets/sounds/Transitions/Camel_Bells.mp3
+- /assets/sounds/Transitions/Glass_Wind_Chimes.mp3
+- /assets/sounds/Transitions/Goat_Hooves.mp3
+- /assets/sounds/Transitions/Key_Tree.mp3
+- /assets/sounds/Transitions/Legos.mp3
+- /assets/sounds/Transitions/Metal_Cap_Rattle.mp3
+- /assets/sounds/Transitions/Metal_Mark_Tree.mp3
+- /assets/sounds/Transitions/Ocean_Drum.mp3
+- /assets/sounds/Transitions/Plastic_Caps.mp3
+- /assets/sounds/Transitions/Pod_Rattle.mp3
+- /assets/sounds/Transitions/Rainstick.mp3
+- /assets/sounds/Transitions/Shell_Wind_Chimes.mp3
+- /assets/sounds/Trumpet_Timp/Trumpet_and_Timp_Bottom_Octave_Trumpet.mp3
+- /assets/sounds/Trumpet_Timp/Trumpet_and_Timp_Everything.mp3
+- /assets/sounds/Trumpet_Timp/Trumpet_and_Timp_Less_Trumpet.mp3
+- /assets/sounds/Trumpet_Timp/Trumpet_and_Timp_Timp_Solo.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_Guitar_Marimba.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_Guitar_Melody.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_Guitar_Melody_Vibe_Fills.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_No_Melody.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_Trumpet.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_Trumpet_Guitars.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_Vibe_Melody_Guitar_Fills.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_Vibe_Solo_1.mp3
+- /assets/sounds/Warner_Valley/Warner_Valley_Vibe_Solo_2.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_1/We_Will_Be_Glad_1_Alto_Flute.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_1/We_Will_Be_Glad_1_Bass_Clarinet.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_1/We_Will_Be_Glad_1_Flute.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_1/We_Will_Be_Glad_1_Guitar_Violin.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_1/We_Will_Be_Glad_1_Sax_Flute.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_1/We_Will_Be_Glad_1_Soprano_Sax.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_1/We_Will_Be_Glad_1_Violin.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Alto_Flute.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Bass_Clarinet.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Bass_Clarinet_Alto_Flute.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Flute.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Soprano_Sax.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Tenor_Sax.mp3
+- /assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Violin.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Antarctic_Sun.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Antarctic_Sun_Carbon_Particles.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Carbon_Particles.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Harp_1.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Harp_1_Antarctic_Sun.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Harp_1_Carbon_Particles.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Harp_2.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Harp_2_Antarctic_Sun.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Harp_2_Carbon_Particles.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Harp_3.mp3
+- /assets/sounds/Zone_3/Zone_3_Guitar_Harp_3_Antarctic_Sun.mp3
+- /types/AudioQueue.ts
+- /views/CreditsPage.vue
+- /views/HomePage.vue
+- /views/MapPage.vue
+- /views/PlayerPage.vue
