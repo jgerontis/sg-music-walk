@@ -3,8 +3,6 @@ PODS:
     - CapacitorCordova
   - CapacitorApp (6.0.0):
     - Capacitor
-  - CapacitorAssetDelivery (0.0.1):
-    - Capacitor
   - CapacitorCordova (6.0.0)
   - CapacitorGeolocation (6.0.0):
     - Capacitor
@@ -14,7 +12,6 @@ PODS:
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
-  - CapacitorAssetDelivery (from `../../../capacitor-asset-delivery`)
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
@@ -24,8 +21,6 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorApp:
     :path: "../../node_modules/@capacitor/app"
-  CapacitorAssetDelivery:
-    :path: "../../../capacitor-asset-delivery"
   CapacitorCordova:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorGeolocation:
@@ -36,11 +31,10 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Capacitor: 559d073c4ca6c27f8e7002c807eea94c3ba435a9
   CapacitorApp: 9d53aec7101f7b030a950c5bdc4df8612576b279
-  CapacitorAssetDelivery: 7c2cf7c5ed1a6f2622358072cfe10e8813fbe023
   CapacitorCordova: 8c4bfdf69368512e85b1d8b724dd7546abeb30af
   CapacitorGeolocation: 1f12bbe372b65116e851bd8e3a94cf0ef9bacebb
   CapacitorHaptics: 9ebc9363f0e9b8eb4295088a0b474530acf1859b
 
-PODFILE CHECKSUM: 0058700c065064ed397e2b4ef8cd5ab81b769c89
+PODFILE CHECKSUM: 172590b3f917d27a9e9a6ba9f8e0326475371b2e
 
 COCOAPODS: 1.15.2

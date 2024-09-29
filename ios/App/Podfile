@@ -14,7 +14,6 @@ def capacitor_pods
   pod 'CapacitorApp', :path => '../../node_modules/@capacitor/app'
   pod 'CapacitorGeolocation', :path => '../../node_modules/@capacitor/geolocation'
   pod 'CapacitorHaptics', :path => '../../node_modules/@capacitor/haptics'
-  pod 'CapacitorAssetDelivery', :path => '../../../capacitor-asset-delivery'
 end
 
 target 'App' do
