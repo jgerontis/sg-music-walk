@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 android {
     namespace "jgerontis.ionic.sgmusicwalk"
     compileSdk rootProject.ext.compileSdkVersion
-    assetPacks = [":assets"]
     defaultConfig {
         applicationId "jgerontis.ionic.sgmusicwalk"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -41,7 +40,6 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
     implementation project(':capacitor-cordova-android-plugins')
-    implementation 'com.google.android.play:asset-delivery:2.2.2'
 }
 
 apply from: 'capacitor.build.gradle'
