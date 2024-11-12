@@ -1,7 +1,7 @@
 {
   "name": "sg-music-walk",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.4.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -43,7 +43,7 @@
     "typescript": "^5.1.6",
     "vite": "^5.0.0",
     "vitest": "^0.34.6",
-    "vue-tsc": "^1.0.24"
+    "vue-tsc": "^2.1.10"
   },
   "description": "An Ionic project"
 }
