@@ -53,14 +53,11 @@ import Marimba_Free_Improvisation_10 from '../assets/sounds/Marimba_Free_Improvi
 import Marimba_Free_Improvisation_12 from '../assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_12.mp3'
 import Marimba_Free_Improvisation_13 from '../assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_13.mp3'
 import Marimba_Free_Improvisation_14 from '../assets/sounds/Marimba_Free_Improvisation/Marimba_Free_Improvisation_14.mp3'
-import Warner_Valley_No_Melody from '../assets/sounds/Warner_Valley/Warner_Valley_No_Melody.mp3'
 import Warner_Valley_Guitar_Melody from '../assets/sounds/Warner_Valley/Warner_Valley_Guitar_Melody.mp3'
 import Warner_Valley_Vibe_Melody_Guitar_Fills from '../assets/sounds/Warner_Valley/Warner_Valley_Vibe_Melody_Guitar_Fills.mp3'
 import Warner_Valley_Vibe_Solo_1 from '../assets/sounds/Warner_Valley/Warner_Valley_Vibe_Solo_1.mp3'
 import Warner_Valley_Trumpet_Guitars from '../assets/sounds/Warner_Valley/Warner_Valley_Trumpet_Guitars.mp3'
 import Warner_Valley_Vibe_Solo_2 from '../assets/sounds/Warner_Valley/Warner_Valley_Vibe_Solo_2.mp3'
-import Warner_Valley_Guitar_Marimba from '../assets/sounds/Warner_Valley/Warner_Valley_Guitar_Marimba.mp3'
-import Warner_Valley_Trumpet from '../assets/sounds/Warner_Valley/Warner_Valley_Trumpet.mp3'
 import Warner_Valley_Guitar_Melody_Vibe_Fills from '../assets/sounds/Warner_Valley/Warner_Valley_Guitar_Melody_Vibe_Fills.mp3'
 import We_Will_Be_Glad_2_Bass_Clarinet_Alto_Flute from '../assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Bass_Clarinet_Alto_Flute.mp3'
 import We_Will_Be_Glad_2_Soprano_Sax from '../assets/sounds/We_Will_Be_Glad/We_Will_Be_Glad_2/We_Will_Be_Glad_2_Soprano_Sax.mp3'
@@ -89,22 +86,16 @@ import Outlaw_Trombone from '../assets/sounds/Outlaw/Outlaw_Trombone.mp3'
 import Sabor_to_Iceberg_Trumpet_Guitar_1_Bass_Conga_Drums from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_1_Bass_Conga_Drums.mp3'
 import Sabor_to_Iceberg_Trumpet_Bass_Guitar_4_Conga from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Bass_Guitar_4_Conga.mp3'
 import Sabor_to_Iceberg_Trumpet_Guitar_1_Drums_Bass from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_1_Drums_Bass.mp3'
-import Sabor_to_Iceberg_Bass_Conga from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Bass_Conga.mp3'
 import Sabor_to_Iceberg_Guitar_4_Conga from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Guitar_4_Conga.mp3'
 import Sabor_to_Iceberg_Guitar_3_Bass_Conga_Drums from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Guitar_3_Bass_Conga_Drums.mp3'
-import Sabor_to_Iceberg_Trumpet_Guitar_2_Drums from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_2_Drums.mp3'
-import Sabor_to_Iceberg_Trumpet_Guitar_3_Bass_Conga_Drums from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_3_Bass_Conga_Drums.mp3'
 import Sabor_to_Iceberg_Bass_Guitar_4_Conga from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Bass_Guitar_4_Conga.mp3'
 import Sabor_to_Iceberg_Trumpet_Guitar_2_Bass_Conga_Drums from '../assets/sounds/Sabor_to_Iceberg/Sabor_to_Iceberg_Trumpet_Guitar_2_Bass_Conga_Drums.mp3'
 import Spider_Heaven_Perc_1_Perc_2 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Perc_1_Perc_2.mp3'
 import Spider_Heaven_Lego_1_Plastic_2 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Lego_1_Plastic_2.mp3'
 import Spider_Heaven_Perc_2_Lego_1 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Perc_2_Lego_1.mp3'
-import Spider_Heaven_Lego_1_Metal_2 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Lego_1_Metal_2.mp3'
-import Spider_Heaven_Perc_2_Metal_1 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Perc_2_Metal_1.mp3'
 import Spider_Heaven_Perc_1_Plastic_2 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Perc_1_Plastic_2.mp3'
 import Spider_Heaven_Perc_2_Plastic_1 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Perc_2_Plastic_1.mp3'
 import Spider_Heaven_Perc_1_Lego_2 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Perc_1_Lego_2.mp3'
-import Spider_Heaven_Perc_1_Metal_2 from '../assets/sounds/Spider_Heaven/Spider_Heaven_Perc_1_Metal_2.mp3'
 import Ninety_Five_West from '../assets/sounds/Ninety_Five_West/Ninety_Five_West.mp3'
 import Crystal_Memories_2020 from '../assets/sounds/Crystal_Memories_2020/Crystal_Memories_2020.mp3'
 import South_Temple_1_Vibe_and_Marimba from '../assets/sounds/South_Temple/South_Temple_1_Vibe_and_Marimba.mp3'
@@ -128,8 +119,6 @@ import Bass_Eventually_2_No_Cello from '../assets/sounds/Bass_Eventually/Bass_Ev
 import Bass_Eventually_3_No_Keys from '../assets/sounds/Bass_Eventually/Bass_Eventually_3_No_Keys.mp3'
 import Ninety_Nine_Drones from '../assets/sounds/Ninety_Nine_Drones/Ninety_Nine_Drones.mp3'
 import Mural_Alley_Flute_Guitar_Glass from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Guitar_Glass.mp3'
-import Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_2 from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_2.mp3'
-import Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_1 from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_1.mp3'
 import Mural_Alley_Flute_Vibe_Shells from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Shells.mp3'
 import Mural_Alley_Flute_Marimba_Glass from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Marimba_Glass.mp3'
 import Mural_Alley_Flute_Guitar_Shells from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Guitar_Shells.mp3'
@@ -137,23 +126,18 @@ import Mural_Alley_Flute_Marimba_Guitar_Shell_Cymbal from '../assets/sounds/Mura
 import Mural_Alley_Flute_Marimba_Shells from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Marimba_Shells.mp3'
 import Mural_Alley_Flute_Vibe_Glass from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Glass.mp3'
 import Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells.mp3'
-import Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_2 from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_2.mp3'
 import Mural_Alley_Flute_Vibe_Marimba_Guitar from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar.mp3'
-import Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_1 from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_1.mp3'
 import Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass from '../assets/sounds/Mural_Alley/Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass.mp3'
 import Birds_Alto_Flute_Marimba_Flute from '../assets/sounds/Birds/Birds_Alto_Flute_Marimba_Flute.mp3'
 import Birds_Flute_Bass_Clarinet from '../assets/sounds/Birds/Birds_Flute_Bass_Clarinet.mp3'
 import Birds_Flute_Violin from '../assets/sounds/Birds/Birds_Flute_Violin.mp3'
-import Birds_Marimba from '../assets/sounds/Birds/Birds_Marimba.mp3'
 import Birds_Alto_Flute_Marimba_Violin from '../assets/sounds/Birds/Birds_Alto_Flute_Marimba_Violin.mp3'
 import Birds_Flute_Marimba from '../assets/sounds/Birds/Birds_Flute_Marimba.mp3'
 import Birds_Alto_Flute_Marimba_Bass_Clarinet from '../assets/sounds/Birds/Birds_Alto_Flute_Marimba_Bass_Clarinet.mp3'
 import Birds_Flute_Alto_Flute from '../assets/sounds/Birds/Birds_Flute_Alto_Flute.mp3'
 import Birds_Alto_Flute_Bass_Clarinet from '../assets/sounds/Birds/Birds_Alto_Flute_Bass_Clarinet.mp3'
-import Birds_Flute from '../assets/sounds/Birds/Birds_Flute.mp3'
 import Birds_Violin_Marimba from '../assets/sounds/Birds/Birds_Violin_Marimba.mp3'
 import Birds_Everything from '../assets/sounds/Birds/Birds_Everything.mp3'
-import Birds_Alto_Flute from '../assets/sounds/Birds/Birds_Alto_Flute.mp3'
 import Birds_Alto_Flute_Violin from '../assets/sounds/Birds/Birds_Alto_Flute_Violin.mp3'
 import Birds_Bass_Clarinet_Violin from '../assets/sounds/Birds/Birds_Bass_Clarinet_Violin.mp3'
 import Birds_Bass_Clarinet_Violin_Marimba from '../assets/sounds/Birds/Birds_Bass_Clarinet_Violin_Marimba.mp3'
@@ -231,14 +215,11 @@ export const songs: Record<string, string> = {
     Marimba_Free_Improvisation_12: Marimba_Free_Improvisation_12,
     Marimba_Free_Improvisation_13: Marimba_Free_Improvisation_13,
     Marimba_Free_Improvisation_14: Marimba_Free_Improvisation_14,
-    Warner_Valley_No_Melody: Warner_Valley_No_Melody,
     Warner_Valley_Guitar_Melody: Warner_Valley_Guitar_Melody,
     Warner_Valley_Vibe_Melody_Guitar_Fills: Warner_Valley_Vibe_Melody_Guitar_Fills,
     Warner_Valley_Vibe_Solo_1: Warner_Valley_Vibe_Solo_1,
     Warner_Valley_Trumpet_Guitars: Warner_Valley_Trumpet_Guitars,
     Warner_Valley_Vibe_Solo_2: Warner_Valley_Vibe_Solo_2,
-    Warner_Valley_Guitar_Marimba: Warner_Valley_Guitar_Marimba,
-    Warner_Valley_Trumpet: Warner_Valley_Trumpet,
     Warner_Valley_Guitar_Melody_Vibe_Fills: Warner_Valley_Guitar_Melody_Vibe_Fills,
     We_Will_Be_Glad_2_Bass_Clarinet_Alto_Flute: We_Will_Be_Glad_2_Bass_Clarinet_Alto_Flute,
     We_Will_Be_Glad_2_Soprano_Sax: We_Will_Be_Glad_2_Soprano_Sax,
@@ -267,22 +248,16 @@ export const songs: Record<string, string> = {
     Sabor_to_Iceberg_Trumpet_Guitar_1_Bass_Conga_Drums: Sabor_to_Iceberg_Trumpet_Guitar_1_Bass_Conga_Drums,
     Sabor_to_Iceberg_Trumpet_Bass_Guitar_4_Conga: Sabor_to_Iceberg_Trumpet_Bass_Guitar_4_Conga,
     Sabor_to_Iceberg_Trumpet_Guitar_1_Drums_Bass: Sabor_to_Iceberg_Trumpet_Guitar_1_Drums_Bass,
-    Sabor_to_Iceberg_Bass_Conga: Sabor_to_Iceberg_Bass_Conga,
     Sabor_to_Iceberg_Guitar_4_Conga: Sabor_to_Iceberg_Guitar_4_Conga,
     Sabor_to_Iceberg_Guitar_3_Bass_Conga_Drums: Sabor_to_Iceberg_Guitar_3_Bass_Conga_Drums,
-    Sabor_to_Iceberg_Trumpet_Guitar_2_Drums: Sabor_to_Iceberg_Trumpet_Guitar_2_Drums,
-    Sabor_to_Iceberg_Trumpet_Guitar_3_Bass_Conga_Drums: Sabor_to_Iceberg_Trumpet_Guitar_3_Bass_Conga_Drums,
     Sabor_to_Iceberg_Bass_Guitar_4_Conga: Sabor_to_Iceberg_Bass_Guitar_4_Conga,
     Sabor_to_Iceberg_Trumpet_Guitar_2_Bass_Conga_Drums: Sabor_to_Iceberg_Trumpet_Guitar_2_Bass_Conga_Drums,
     Spider_Heaven_Perc_1_Perc_2: Spider_Heaven_Perc_1_Perc_2,
     Spider_Heaven_Lego_1_Plastic_2: Spider_Heaven_Lego_1_Plastic_2,
     Spider_Heaven_Perc_2_Lego_1: Spider_Heaven_Perc_2_Lego_1,
-    Spider_Heaven_Lego_1_Metal_2: Spider_Heaven_Lego_1_Metal_2,
-    Spider_Heaven_Perc_2_Metal_1: Spider_Heaven_Perc_2_Metal_1,
     Spider_Heaven_Perc_1_Plastic_2: Spider_Heaven_Perc_1_Plastic_2,
     Spider_Heaven_Perc_2_Plastic_1: Spider_Heaven_Perc_2_Plastic_1,
     Spider_Heaven_Perc_1_Lego_2: Spider_Heaven_Perc_1_Lego_2,
-    Spider_Heaven_Perc_1_Metal_2: Spider_Heaven_Perc_1_Metal_2,
     Ninety_Five_West: Ninety_Five_West,
     Crystal_Memories_2020: Crystal_Memories_2020,
     South_Temple_1_Vibe_and_Marimba: South_Temple_1_Vibe_and_Marimba,
@@ -306,8 +281,6 @@ export const songs: Record<string, string> = {
     Bass_Eventually_3_No_Keys: Bass_Eventually_3_No_Keys,
     Ninety_Nine_Drones: Ninety_Nine_Drones,
     Mural_Alley_Flute_Guitar_Glass: Mural_Alley_Flute_Guitar_Glass,
-    Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_2: Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_2,
-    Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_1: Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells_Cymbal_Scrape_Tam_1,
     Mural_Alley_Flute_Vibe_Shells: Mural_Alley_Flute_Vibe_Shells,
     Mural_Alley_Flute_Marimba_Glass: Mural_Alley_Flute_Marimba_Glass,
     Mural_Alley_Flute_Guitar_Shells: Mural_Alley_Flute_Guitar_Shells,
@@ -315,23 +288,18 @@ export const songs: Record<string, string> = {
     Mural_Alley_Flute_Marimba_Shells: Mural_Alley_Flute_Marimba_Shells,
     Mural_Alley_Flute_Vibe_Glass: Mural_Alley_Flute_Vibe_Glass,
     Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells: Mural_Alley_Flute_Vibe_Marimba_Guitar_Shells,
-    Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_2: Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_2,
     Mural_Alley_Flute_Vibe_Marimba_Guitar: Mural_Alley_Flute_Vibe_Marimba_Guitar,
-    Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_1: Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass_Cymbal_Tam_1,
     Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass: Mural_Alley_Flute_Vibe_Marimba_Guitar_Glass,
     Birds_Alto_Flute_Marimba_Flute: Birds_Alto_Flute_Marimba_Flute,
     Birds_Flute_Bass_Clarinet: Birds_Flute_Bass_Clarinet,
     Birds_Flute_Violin: Birds_Flute_Violin,
-    Birds_Marimba: Birds_Marimba,
     Birds_Alto_Flute_Marimba_Violin: Birds_Alto_Flute_Marimba_Violin,
     Birds_Flute_Marimba: Birds_Flute_Marimba,
     Birds_Alto_Flute_Marimba_Bass_Clarinet: Birds_Alto_Flute_Marimba_Bass_Clarinet,
     Birds_Flute_Alto_Flute: Birds_Flute_Alto_Flute,
     Birds_Alto_Flute_Bass_Clarinet: Birds_Alto_Flute_Bass_Clarinet,
-    Birds_Flute: Birds_Flute,
     Birds_Violin_Marimba: Birds_Violin_Marimba,
     Birds_Everything: Birds_Everything,
-    Birds_Alto_Flute: Birds_Alto_Flute,
     Birds_Alto_Flute_Violin: Birds_Alto_Flute_Violin,
     Birds_Bass_Clarinet_Violin: Birds_Bass_Clarinet_Violin,
     Birds_Bass_Clarinet_Violin_Marimba: Birds_Bass_Clarinet_Violin_Marimba,
